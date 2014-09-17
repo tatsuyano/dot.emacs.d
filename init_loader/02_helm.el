@@ -42,3 +42,17 @@
                         ;; and not required because the directory name is prepended
                         (substring input-pattern 1)
                       (concat ".*" input-pattern)))))))
+
+;; --------------------------------------------------
+;; helm-gtags-mode
+;; http://d.hatena.ne.jp/syohex/20121025/1351175067
+;; --------------------------------------------------
+(add-hook 'helm-gtags-mode-hook
+          '(lambda ()
+             (local-set-key (kbd "M-t") 'helm-gtags-find-tag)   ;;入力されたタグの定義元へジャンプ
+             (local-set-key (kbd "M-r") 'helm-gtags-find-rtag)  ;;入力タグを参照する場所へジャンプ
+             (local-set-key (kbd "M-s") 'helm-gtags-find-symbol);;入力したシンボルを参照する場所へジャンプ
+             (local-set-key (kbd "C-t") 'helm-gtags-pop-stack)));;ジャンプ前の場所に戻る
+
+(add-hook 'php-mode-hook 'helm-gtags-mode)
+(add-hook 'ruby-mode-hook'helm-gtags-mode)

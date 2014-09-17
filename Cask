@@ -15,6 +15,7 @@
 
 ;; Helm
 (depends-on "helm")
+(depends-on "helm-gtags")
 
 ;; Markdown
 (depends-on "markdown-mode")
