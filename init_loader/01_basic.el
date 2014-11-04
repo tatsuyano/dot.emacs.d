@@ -33,5 +33,5 @@
 ;; hostsやconfファイルに色がつくようになる
 (require 'generic-x)
 
-;;reload
+;; reload
 (global-set-key [f12] 'eval-buffer)

@@ -1,3 +1,5 @@
+;; 分割したウィンドウの大きさを変更
+;; http://qiita.com/icb54615/items/b04be54caf46d2bf721a
 (defun window-resizer ()
   "Control window size and position."
   (interactive)
