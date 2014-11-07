@@ -34,4 +34,4 @@
                    (call-interactively command)))
                (message "Quit")
                (throw 'end-flag t)))))))
-(global-set-key "\C-c\C-z" 'window-resizer)
+(global-set-key "\C-c\C-v" 'window-resizer)
