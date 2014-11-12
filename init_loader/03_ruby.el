@@ -55,3 +55,11 @@
 (autoload 'robe-mode "robe" "Code navigation, documentation lookup and completion for Ruby" t nil)
 (autoload 'ac-robe-setup "ac-robe" "auto-complete robe" nil nil)
 (add-hook 'robe-mode-hook 'ac-robe-setup)
+
+;; --------------------------------------------------
+;; rbenv.el
+;; http://block-given.hatenablog.com/entry/2014/11/12/005657
+;; --------------------------------------------------
+(require 'rbenv)
+(global-rbenv-mode)
+(setq rbenv-installation-dir "~/.anyenv/envs/rbenv")

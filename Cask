@@ -25,6 +25,7 @@
 (depends-on "ruby-end")
 (depends-on "ruby-block")
 (depends-on "robe")
+(depends-on "rbenv")
 
 ;; PHP
 (depends-on "php-mode")
