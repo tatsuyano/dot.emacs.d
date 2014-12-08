@@ -20,6 +20,9 @@
 ;; Markdown
 (depends-on "markdown-mode")
 
+;; Google-translate
+(depends-on "google-translate")
+
 ;; Ruby
 (depends-on "ruby-mode")
 (depends-on "ruby-end")
