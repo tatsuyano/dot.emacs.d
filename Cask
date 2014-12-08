@@ -30,8 +30,12 @@
 (depends-on "robe")
 (depends-on "rbenv")
 
-;; PHP
-(depends-on "php-mode")
-
 ;; HTML
 (depends-on "web-mode")
+
+;; PHP
+(depends-on "php-mode")
+(depends-on "php-completion"
+        :git "https://github.com/suzuki/php-completion.git"
+        :branch "develop"
+        :files ("*.el" "phpcmp-index-of-*"))
