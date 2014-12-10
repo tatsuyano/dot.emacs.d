@@ -19,6 +19,7 @@
 (depends-on "google-translate")
 
 ;; Development
+(depends-on "smartrep")
 (depends-on "git-gutter")
 (depends-on "migemo")
 
