@@ -10,18 +10,17 @@
 (depends-on "fuzzy")
 (depends-on "popup")
 
-;; Migemo
-(depends-on "migemo")
-
 ;; Helm
 (depends-on "helm")
 (depends-on "helm-gtags")
 
-;; Markdown
+;; Etc
 (depends-on "markdown-mode")
-
-;; Google-translate
 (depends-on "google-translate")
+
+;; Development
+(depends-on "git-gutter")
+(depends-on "migemo")
 
 ;; Ruby
 (depends-on "ruby-mode")

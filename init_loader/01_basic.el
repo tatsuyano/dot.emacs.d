@@ -35,3 +35,6 @@
 
 ;; reload
 (global-set-key [f12] 'eval-buffer)
+
+;; git-gutter
+(global-git-gutter-mode t)
