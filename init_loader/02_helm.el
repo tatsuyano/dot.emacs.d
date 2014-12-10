@@ -46,12 +46,14 @@
 ;; --------------------------------------------------
 ;; helm-gtags-mode
 ;; http://d.hatena.ne.jp/syohex/20121025/1351175067
+;; http://emacs-jp.github.io/packages/helm/helm-gtags.html
 ;; --------------------------------------------------
 (add-hook 'helm-gtags-mode-hook
           '(lambda ()
              (local-set-key (kbd "M-t") 'helm-gtags-find-tag)   ;;入力されたタグの定義元へジャンプ
              (local-set-key (kbd "M-r") 'helm-gtags-find-rtag)  ;;入力タグを参照する場所へジャンプ
              (local-set-key (kbd "M-s") 'helm-gtags-find-symbol);;入力したシンボルを参照する場所へジャンプ
+             (local-set-key (kbd "M-l") 'helm-gtags-select)     ;;タグ一覧からタグを選択し, その定義元にジャンプする
              (local-set-key (kbd "C-t") 'helm-gtags-pop-stack)));;ジャンプ前の場所に戻る
 
 (add-hook 'php-mode-hook 'helm-gtags-mode)
