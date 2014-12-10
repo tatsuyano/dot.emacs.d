@@ -12,7 +12,7 @@
 
 ;; Helm
 (depends-on "helm")
-(depends-on "helm-gtags")
+(depends-on "helm-gtags") ;; http://blog.10rane.com/2014/09/17/to-reading-comprehension-of-the-source-code-by-introducing-the-helm-gtags-mode/
 
 ;; Etc
 (depends-on "markdown-mode")
@@ -21,13 +21,13 @@
 ;; Development
 (depends-on "smartrep")
 (depends-on "git-gutter")
-(depends-on "migemo")
+(depends-on "migemo") ;; http://blog.10rane.com/2014/08/27/how-to-install-and-setup-migemo-on-amazon-linux/
 
 ;; Ruby
 (depends-on "ruby-mode")
 (depends-on "ruby-end")
 (depends-on "ruby-block")
-(depends-on "robe")
+(depends-on "robe") ;; http://blog.10rane.com/2014/09/01/set-up-ruby-mode-of-emacs/
 (depends-on "rbenv")
 
 ;; HTML
