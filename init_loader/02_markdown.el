@@ -1,5 +1,5 @@
 (autoload 'markdown-mode "markdown-mode.el" "Major mode for editing Markdown files" t)
-(setq auto-mode-alist (cons '("\\.md" . markdown-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.md" . gfm-mode) auto-mode-alist))
 
 ;; custom color
 (defface markdown-header-face-1
