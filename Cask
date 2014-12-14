@@ -17,6 +17,7 @@
 ;; Etc
 (depends-on "markdown-mode")
 (depends-on "google-translate")
+(depends-on "recentf-ext")
 
 ;; Development
 (depends-on "smartrep")
