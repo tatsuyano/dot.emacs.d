@@ -12,3 +12,11 @@
 
 ;; ctpファイルもphp-modeで開くようにする
 (add-to-list 'auto-mode-alist '("\\.ctp$" . php-mode))
+
+;; --------------------------------------------------
+;; smart-newline.el
+;; http://ainame.hateblo.jp/entry/2013/12/08/162032
+;; --------------------------------------------------
+(add-hook 'php-mode-hook
+  (lambda ()
+  (smart-newline-mode t)))

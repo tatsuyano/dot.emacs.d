@@ -63,3 +63,11 @@
 (require 'rbenv)
 (global-rbenv-mode)
 (setq rbenv-installation-dir "~/.anyenv/envs/rbenv")
+
+;; --------------------------------------------------
+;; smart-newline.el
+;; http://ainame.hateblo.jp/entry/2013/12/08/162032
+;; --------------------------------------------------
+(add-hook 'ruby-mode-hook
+  (lambda ()
+  (smart-newline-mode t)))
