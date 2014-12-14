@@ -1,3 +1,6 @@
+;; カラーテーマ
+(load-theme 'manoj-dark t)
+
 ;; スタートアップ非表示
 (setq inhibit-startup-screen t)
 
