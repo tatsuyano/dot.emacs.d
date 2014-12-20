@@ -19,9 +19,12 @@
 (depends-on "google-translate")
 (depends-on "recentf-ext")
 
+;; Version Control
+(depends-on "git-gutter")
+(depends-on "magit")
+
 ;; Development
 (depends-on "smartrep")
-(depends-on "git-gutter")
 (depends-on "migemo") ;; http://blog.10rane.com/2014/08/27/how-to-install-and-setup-migemo-on-amazon-linux/
 (depends-on "smart-newline")
 
