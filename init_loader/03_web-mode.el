@@ -6,3 +6,4 @@
 
 (add-to-list 'auto-mode-alist '("\\.smarty\\'" . web-mode));; Smarty
 (add-to-list 'auto-mode-alist '("\\.hbs\\'" . web-mode))   ;; Handlebars.js
+(add-to-list 'auto-mode-alist '("\\.erb\\'" . web-mode))   ;; Ruby template
