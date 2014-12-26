@@ -35,6 +35,9 @@
 (depends-on "robe") ;; http://blog.10rane.com/2014/09/01/set-up-ruby-mode-of-emacs/
 (depends-on "rbenv")
 
+;; Javascript
+(depends-on "coffee-mode")
+
 ;; HTML
 (depends-on "web-mode")
 
