@@ -1,3 +1,4 @@
+;; coffee-mode
 (require 'coffee-mode)
 (defun coffee-custom ()
   "coffee-mode-hook"
@@ -7,3 +8,7 @@
 
 (add-hook 'coffee-mode-hook
   '(lambda() (coffee-custom)))
+
+;; js2-mode
+(autoload 'js2-mode "js2-mode" nil t)
+(add-to-list 'auto-mode-alist '("\.js$" . js2-mode))

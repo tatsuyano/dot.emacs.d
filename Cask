@@ -38,6 +38,7 @@
 (depends-on "rbenv")
 
 ;; Javascript
+(depends-on "js2-mode")
 (depends-on "coffee-mode")
 
 ;; HTML
