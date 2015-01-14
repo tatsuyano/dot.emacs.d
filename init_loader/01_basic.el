@@ -16,6 +16,9 @@
 ;; バックアップを残さない
 (setq make-backup-files nil)
 
+;; 自動でファイルを保存 http://blog.kentarok.org/entry/20080222/1203688543
+(auto-save-buffers-enhanced t)
+
 ;; バッファ自動再読み込み
 (global-auto-revert-mode 1)
 
