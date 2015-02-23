@@ -36,6 +36,7 @@
 (depends-on "ruby-block")
 (depends-on "robe") ;; http://blog.10rane.com/2014/09/01/set-up-ruby-mode-of-emacs/
 (depends-on "rbenv")
+(depends-on "rspec-mode")
 
 ;; Javascript
 (depends-on "js2-mode")
