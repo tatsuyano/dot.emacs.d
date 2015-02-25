@@ -10,6 +10,14 @@
 (add-to-list 'auto-mode-alist '("Gemfile$" . ruby-mode))
 (add-to-list 'interpreter-mode-alist '("ruby" . ruby-mode)) ;; shebangがrubyの場合、ruby-modeを開く
 
+;; --------------------------------------------------
+;; rubyのファイルを開く場合は、とにかくUTF-8を使う
+;; http://qiita.com/ironsand/items/a53797bd48170104aa74
+;; --------------------------------------------------
+(prefer-coding-system 'utf-8)
+(setq coding-system-for-read 'utf-8)
+(setq coding-system-for-write 'utf-8)
+
 ;; ruby-modeのインデントを改良する
 (setq ruby-deep-indent-paren-style nil)
 (defadvice ruby-indent-line (after unindent-closing-paren activate)
