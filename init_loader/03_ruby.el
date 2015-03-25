@@ -90,3 +90,14 @@
 ;; --------------------------------------------------
 (require 'rspec-mode)
 (custom-set-variables '(rspec-use-rake-flag nil))
+
+;; --------------------------------------------------
+;; rcodetools
+;; http://blog.10rane.com/2015/03/25/install-rcodetools-to-emacs/
+;; 返り値をコメントに出力することができる e.g. 3 + 4 # => 7
+;;
+;; 返り値を出力したい行で、M-;(comment-dwim)を二回実行すると「# =>」というコメントがソースに出力される
+;; その状態で、C-i(xmp)を実行すると、コメントに返り値が出力される
+;; --------------------------------------------------
+(require 'rcodetools)
+(define-key ruby-mode-map (kbd "C-i") 'xmp)
