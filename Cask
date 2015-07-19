@@ -18,6 +18,7 @@
 (depends-on "markdown-mode")
 (depends-on "google-translate")
 (depends-on "recentf-ext")
+(depends-on "yaml-mode")
 
 ;; Version Control
 (depends-on "git-gutter")
