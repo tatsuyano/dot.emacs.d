@@ -42,6 +42,7 @@
 ;; Javascript
 (depends-on "js2-mode")
 (depends-on "coffee-mode")
+(depends-on "flymake-jshint")
 
 ;; HTML
 (depends-on "web-mode")
