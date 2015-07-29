@@ -44,8 +44,9 @@
 (depends-on "coffee-mode")
 (depends-on "flymake-jshint")
 
-;; HTML
+;; HTML & CSS
 (depends-on "web-mode")
+(depends-on "scss-mode")
 
 ;; PHP
 (depends-on "php-mode")
