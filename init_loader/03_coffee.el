@@ -16,5 +16,5 @@
 ;; wget https://raw.github.com/sandai/dotfiles/master/.emacs.d/ac-dict/js2-mode
 (add-hook 'coffee-mode-hook
   '(lambda ()
-    (add-to-list 'ac-dictionary-files "~/.emacs.d/.cask/24.3.1/elpa/auto-complete-20141208.809/dict/js2-mode")
+    (add-to-list 'ac-dictionary-files "~/.emacs.d/init_loader/dict/js2-mode")
 ))
