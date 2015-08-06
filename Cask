@@ -49,6 +49,7 @@
 ;; HTML & CSS
 (depends-on "web-mode")
 (depends-on "scss-mode")
+(depends-on "flymake-cursor")
 
 ;; PHP
 (depends-on "php-mode")
