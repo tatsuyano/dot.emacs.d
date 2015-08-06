@@ -43,6 +43,8 @@
 (depends-on "js2-mode")
 (depends-on "coffee-mode")
 (depends-on "flymake-jshint")
+(depends-on "tern")
+(depends-on "tern-auto-complete")
 
 ;; HTML & CSS
 (depends-on "web-mode")
