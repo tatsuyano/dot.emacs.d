@@ -4,6 +4,7 @@
     "jquery"
   ],
   "plugins": {
-     "node": {}
+     "node": {},
+     "node-express": {}
   }
 }

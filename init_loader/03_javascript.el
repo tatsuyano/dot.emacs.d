@@ -1,3 +1,6 @@
+;; インデント 2
+(setq-default js2-basic-offset 2)
+
 ;; js2-mode
 (autoload 'js2-mode "js2-mode" nil t)
 (add-to-list 'auto-mode-alist '("\.js$" . js2-mode))
@@ -8,7 +11,6 @@
 (add-hook 'js2-mode-hook '(lambda ()
                             (require 'flymake-jshint)
                             (flymake-jshint-load)))
-
 ;; tern
 ;; http://syati.info/?p=2163
 ;; http://ternjs.net/doc/demo.html
