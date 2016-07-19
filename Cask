@@ -39,6 +39,11 @@
 (depends-on "rbenv")
 (depends-on "rspec-mode")
 
+;; Elixir
+(depends-on "elixir-mode")
+(depends-on "alchemist")
+(depends-on "ac-alchemist" :git "git@github.com:syohex/emacs-ac-alchemist.git")
+
 ;; Javascript
 (depends-on "js2-mode")
 (depends-on "coffee-mode")
